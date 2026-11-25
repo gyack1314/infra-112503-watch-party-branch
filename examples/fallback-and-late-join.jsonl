@@ -1,0 +1,14 @@
+{"at":0,"kind":"branch","record":{"node":"c1","segment":"intro","options":{"river":"r","town":"t"},"fallback":"town","order":["river","town"]}}
+{"at":0,"kind":"ready","record":{"segment":"r","available":true}}
+{"at":0,"kind":"ready","record":{"segment":"t","available":true}}
+{"at":1,"kind":"member","record":{"room":"room","account":"a","active":true}}
+{"at":1,"kind":"member","record":{"room":"room","account":"b","active":true}}
+{"at":2,"kind":"start","record":{"room":"room","node":"c1","round":"one","close_at":10}}
+{"at":3,"kind":"ballot","record":{"round":"one","account":"a","device":"phone","option":"town"}}
+{"at":4,"kind":"ballot","record":{"round":"one","account":"a","device":"pad","option":"river"}}
+{"at":5,"kind":"member","record":{"room":"room","account":"c","active":true}}
+{"at":6,"kind":"ballot","record":{"round":"one","account":"c","device":"home","option":"town"}}
+{"at":7,"kind":"ready","record":{"segment":"r","available":false}}
+{"at":8,"kind":"ballot","record":{"round":"one","account":"b","device":"tv","option":"river"}}
+{"at":10,"kind":"close","record":{"round":"one"}}
+{"at":11,"kind":"inspect","record":{"round":"one"}}

@@ -1,0 +1,13 @@
+{"at":0,"kind":"branch","record":{"node":"c1","segment":"intro","options":{"river":"r"},"fallback":"river","order":["river"],"cut_playhead":14}}
+{"at":0,"kind":"branch","record":{"node":"c2","segment":"r","options":{"hill":"h"},"fallback":"hill","order":["hill"],"cut_playhead":28}}
+{"at":0,"kind":"ready","record":{"segment":"r","available":true}}
+{"at":1,"kind":"member","record":{"room":"rm","account":"a","active":true}}
+{"at":2,"kind":"start","record":{"room":"rm","node":"c1","round":"q1","close_at":5}}
+{"at":3,"kind":"ballot","record":{"round":"q1","account":"a","device":"tv","option":"river"}}
+{"at":5,"kind":"close","record":{"round":"q1"}}
+{"at":6,"kind":"switched","record":{"round":"q1","account":"a","device":"tv","segment":"r"}}
+{"at":7,"kind":"position","record":{"room":"rm","account":"a","device":"pad","segment":"intro","playhead":20}}
+{"at":8,"kind":"start","record":{"room":"rm","node":"c2","round":"q2","close_at":16}}
+{"at":9,"kind":"resume","record":{"room":"rm","account":"a","device":"pad","segment":"intro","playhead":20}}
+{"at":10,"kind":"ballot","record":{"round":"q2","account":"a","device":"pad","option":"hill"}}
+{"at":11,"kind":"inspect","record":{"room":"rm"}}
